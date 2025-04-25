@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+static/
+
+# If using PostgreSQL or other DBs, ignore dump files
+*.sql
+*.sqlite3
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Test results
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# MyPy
+.mypy_cache/
+
+# pip-tools
+*.txt~
+
+# pyenv
+.python-version
+
+# Build files
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Celery beat schedule files
+celerybeat-schedule
+
+# Coverage reports
+coverage.xml
+*.cover
+.hypothesis/
+
+# Node (if using with frontend)
+node_modules/
+
+# VS Code workspace storage
+.vscode/
